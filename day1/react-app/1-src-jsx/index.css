@@ -20,22 +20,3 @@ img {
 button {
   padding: 10px;
 }
-
-
-nav{
-  display: flex;
-  height: 50px;
-}
-
-
-nav > span {
-  width: 110px;
-  /* padding: 10px 20px; */
-  line-height: 50px;
-  text-align: center;
-  border: 1px solid #ccc;
-}
-.active{
-  color: #ffffff;
-  background: #ac6565;
-}
