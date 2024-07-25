@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(247, 222, 226);
+}
+
+.box {
+  font-size: 30px;
+  color: hotpink;
+}
+
+.bold {
+  font-weight: bold;
+  font-style: italic;
+}
