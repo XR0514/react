@@ -21,26 +21,18 @@ button {
   padding: 10px;
 }
 
-
-nav{
-  display: flex;
-  height: 50px;
-}
-
-
-nav > span {
-  width: 110px;
-  /* padding: 10px 20px; */
-  line-height: 50px;
-  text-align: center;
-  border: 1px solid #ccc;
-}
-.active{
-  color: #ffffff;
-  background: #ac6565;
-}
-
 .child {
   border: 1px solid #ccc;
   padding: 20px;
+}
+
+.box {
+  color: blueviolet;
+  font-size: 20px;
+  background: #ccc;
+  width: 100px;
+  height: 100px;
+}
+.bold {
+  font-weight: 800;
 }

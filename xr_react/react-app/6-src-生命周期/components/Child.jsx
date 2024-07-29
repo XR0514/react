@@ -21,7 +21,7 @@ class Child extends PureComponent {
     })
   }
 
-  // // 性能右滑，可以判断当前组件中使用的变量是否有更新，减少不必要的更新
+  // // 性能优化，可以判断当前组件中使用的变量是否有更新，减少不必要的更新
   // shouldComponentUpdate(nextProps, nextState) {
   //   // nextProps: 最新的参数(父传子)
   //   // nextState：最新的state
