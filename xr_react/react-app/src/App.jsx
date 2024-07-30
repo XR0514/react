@@ -1,28 +1,19 @@
 /* eslint-disable no-unused-vars */
-import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
-import Child from './components/Child'
+import React, { useReducer, useState } from 'react'
+
+// useReducer：定义组件状态
 
 const App = () => {
-  const [num, setNum] = useState(0)
-  const [obj, setObj] = useState({
-    name: 'xm',
-    age: 20,
-    gender: '女'
-  })
 
-  const add = useCallback(() => {
-    setNum(num + 1)
-  }, [num])
+  const [count, setCount] = useState(0)
+  const [state, dispatch] = useReducer()
+
 
   return (
-    <div>
-      <p>{num}</p>
-      <button onClick={add}>+</button>
-      <hr />
-      <p>age：{obj.age}</p>
-      <button onClick={() => setObj({...obj, age: obj.age + 1})}>age+</button>
-      <hr />
-      <Child></Child>
+    <div className='box'>
+      <h2>App</h2>
+      <p>count: {count}</p>
+      <button onClick={() => setCount(n => n + 1)}>+</button>
     </div>
   )
 }
