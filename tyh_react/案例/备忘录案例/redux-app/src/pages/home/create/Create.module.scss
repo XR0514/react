@@ -1,0 +1,16 @@
+.create {
+
+}
+.row {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  span {
+    width: 70px;
+    text-align: right;
+    padding-right: 10px;
+  }
+}
+.formItem {
+  flex: 1;
+}

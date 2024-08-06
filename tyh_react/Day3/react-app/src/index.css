@@ -1,0 +1,13 @@
+body {
+  background: #f9e6e9;
+}
+
+.box {
+  font-size: 30px;
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+  font-style: italic;
+}

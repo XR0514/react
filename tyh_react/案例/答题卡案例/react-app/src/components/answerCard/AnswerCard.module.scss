@@ -1,0 +1,76 @@
+.answerPaper {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  background: lightblue;
+  text-align: center;
+  line-height: 40px;
+  font-style: normal;
+  color: white;
+  font-weight: bold;
+}
+
+.time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  background: lightgray;
+  text-align: center;
+  line-height: 40px;
+  color: red;
+  font-weight: 900;
+}
+
+.answer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.answerPart {
+  position: absolute;
+  width: 200px;
+  min-height: 200px;
+  background: rgba(255, 191, 202, 0.7);
+  top: 40px;
+  right: 0;
+  padding: 12px 0;
+  float: left;
+  padding-left: 12px;
+}
+
+.answerPart button {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 0;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.checked {
+  background-color: #ff69b4 !important;
+  color: white;
+}
+
+.true {
+  background-color: #00b96b !important;
+  color: white;
+}
+
+.false {
+  background-color: #f20e33 !important;
+  color: white;
+}
+
+.remind {
+  font-size: 14px;
+  color: orangered;
+  margin: 5px;
+}

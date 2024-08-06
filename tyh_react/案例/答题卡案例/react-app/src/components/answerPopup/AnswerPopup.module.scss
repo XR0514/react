@@ -1,0 +1,47 @@
+.gradeAlert {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.grade {
+  width: 300px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.grade img {
+  width: 150px;
+  border-radius: 3px;
+}
+
+.grade h1 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.grade span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f00;
+  margin-bottom: 10px;
+}
+
+.confirm {
+  width: 100px;
+  height: 40px;
+  background: lightpink;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+
