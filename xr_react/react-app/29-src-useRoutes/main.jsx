@@ -10,19 +10,12 @@ import {
   HashRouter,  // hash模式
   BrowserRouter  // history模式
 } from 'react-router-dom'
-import { Suspense } from 'react'
-import { Provider } from 'react-redux'
-import store from './store'
 
 
 const root = document.getElementById('root')
 // 把虚拟DOM渲染到根元素里面
 ReactDOM.createRoot(root).render(
-  <Provider store={store}>
-    <Suspense fallback={<div className='loading'>加载中</div>}>
-      <BrowserRouter>
-        <App></App>
-      </BrowserRouter>
-    </Suspense>
-  </Provider>
+  <HashRouter>
+    <App></App>
+  </HashRouter>
 )

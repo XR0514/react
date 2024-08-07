@@ -1,0 +1,42 @@
+.answerCard{
+  position: fixed;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 400px;
+  top: 0;
+  right: 100px;
+}
+.tit{
+  height: 60px;
+  display: flex;
+  > h3{
+    width: 150px;
+    height: 60px;
+    background: #5392EA;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+  }
+}
+.topicOrder{
+  padding: 15px 10px;
+  > span{
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #1F1BA0;
+    background: #FFFFFF;
+    margin: 10px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+
+.spanRed {
+  background: red!important;
+}
+.spanBlue {
+  background: #5392EA!important;
+}
