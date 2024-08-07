@@ -11,18 +11,15 @@ import {
   BrowserRouter  // history模式
 } from 'react-router-dom'
 import { Suspense } from 'react'
-import { Provider } from 'react-redux'
-import store from './store'
 
 
 const root = document.getElementById('root')
 // 把虚拟DOM渲染到根元素里面
 ReactDOM.createRoot(root).render(
-  <Provider store={store}>
-    <Suspense fallback={<div className='loading'>加载中</div>}>
-      <BrowserRouter>
-        <App></App>
-      </BrowserRouter>
-    </Suspense>
-  </Provider>
+  // fallback：异步组件加载中显示的后备内容
+  <Suspense fallback={<div className='loading'>加载中</div>}>
+    <BrowserRouter>
+      <App></App>
+    </BrowserRouter>
+  </Suspense>
 )

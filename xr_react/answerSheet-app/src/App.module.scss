@@ -1,0 +1,29 @@
+.box {
+  width: 1200px;
+  height: auto;
+  background: #ECECEC;
+  padding: 15px 0;
+  margin: 10px auto 0;
+  position: relative;
+  > h3{
+    height: 40px;
+    background: #F6F6F6;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+.submit{
+  display: block;
+  width: 100px;
+  height: 60px;
+  background: skyblue;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  margin: 40px auto;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
